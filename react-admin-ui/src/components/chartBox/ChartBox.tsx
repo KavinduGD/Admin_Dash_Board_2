@@ -9,6 +9,7 @@ type Props = {
   dataKey: string;
   number: number | string;
   chartData: object[];
+  percentage: number;
 };
 function ChartBox(props: Props) {
   return (
